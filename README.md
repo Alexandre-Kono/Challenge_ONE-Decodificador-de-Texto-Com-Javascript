@@ -22,5 +22,5 @@ Exemplo:
 Possui campos para inserir textos a serem criptografados e descriptografados, e o resultado é exibido na tela.
 
 # Melhorias Futuras
--  Botão colar texto
+-  Botão colar texto.
 -  Aprimoramento no estilo de CSS para melhor o design responsivo.
