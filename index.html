@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/svg/Icon.png">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/img/icon.png" alt="Logotipo do Decodificador de Texto">
+        <h1>Decodificador de Texto</h1>
+    </header>
+    <main class="main">
+        <section class="main-entrada">
+            <div>
+                <p class="mensagemAlerta">*Somente <strong class="alerta">letras minúsculas </strong> são permitidas
+                    <br>
+                    (sem acentos e caracteres especiais).
+                </p>
+            </div>
+            <div>
+                <textarea id="textoEntrada" class="textoEntrada" placeholder="Insira seu texto aqui..."></textarea>
+            </div>
+            <div class="botoes-entrada">
+                <button id="botaoCriptografar" class="botao-Criptografar">Criptografar</button>
+                <button id="botaoDescriptografar" class="botao-Descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section class="main-saida">
+            <div class="img-saida">
+                <img src="./assets/img/icon.png" alt="Logotipo do Decodificador de Texto">
+            </div>
+            <div>
+                <p id="mensagemSaida" class="mensagemSaida">Texto criptografado ou descriptografado.</p>
+            </div>
+            <div>
+                <textarea id="textoSaida" class="textoSaida" placeholder="Insira um texto a ser copiado."></textarea>
+            </div>
+            <div class="botoes-saida">
+                <button id="botaoCopiar" class="botao-Copiar">Copiar</button>
+                <button id="botaoLimpar" class="botao-Limpar">Limpar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-texto">Designed by <strong>Alexandre Kono</strong></p>
+        <div>
+            <a href="https://github.com/Alexandre-Kono">
+                <img src="./assets/img/github.png" alt="Logo github"></a>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
