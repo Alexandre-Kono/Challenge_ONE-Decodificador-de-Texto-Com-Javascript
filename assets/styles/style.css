@@ -44,7 +44,6 @@ body {
 
 .header img {
     height: 7rem;
-
 }
 
 .header h1 {
@@ -178,4 +177,43 @@ body {
 
 .footer img:hover {
     transform: scale(1.25);
+}
+
+/* Consultas de mídia para o Galaxy Z Flip */
+@media screen and (max-width: 1080px) and (max-height: 2636px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header, .footer {
+        height: 15vh;
+    }
+
+    .main {
+        height: 70%;
+    }
+
+    .header img {
+        height: 5rem;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .textoEntrada, .textoSaida {
+        font-size: 1.4rem;
+    }
+
+    .botao-Criptografar, .botao-Descriptografar, .botao-Copiar, .botao-Limpar {
+        font-size: 1.2rem;
+    }
+
+    .footer-texto {
+        font-size: 1.2rem;
+    }
+
+    .footer img {
+        height: 2rem;
+    }
 }
